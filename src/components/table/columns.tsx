@@ -59,6 +59,7 @@ export const columns: ColumnDef<Product>[] = [
     },
     {
       accessorKey: "category",
+      enableGrouping: true,
       header: ({ column }) => {
         return (
           <Button
@@ -74,6 +75,7 @@ export const columns: ColumnDef<Product>[] = [
     },
     {
       accessorKey: "subcategory",
+      enableGrouping: true,
       header: ({ column }) => {
         return (
           <Button
